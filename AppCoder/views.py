@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 from django.shortcuts import render, redirect
 from .models import Cliente, Vendedor, Compra
 from .forms import ClienteFormulario, VendedorFormulario, CompraFormulario
 from django.http import HttpResponse
-=======
-from django.shortcuts import render
-
->>>>>>> 0700b2c480ce15c9ab23972ea956a2196f857578
 # Create your views here.
 
 
@@ -23,7 +18,6 @@ def vendedor(request):
 def cliente(request):
     return render(request, 'AppCoder/cliente.html')
 
-<<<<<<< HEAD
 
 # ----------------FORMULARIOS--------------
 
@@ -117,5 +111,3 @@ def buscar(request):
 
     return HttpResponse(respuesta)
 
-=======
->>>>>>> 0700b2c480ce15c9ab23972ea956a2196f857578
